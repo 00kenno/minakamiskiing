@@ -1,0 +1,24 @@
+<head>
+<style>
+p{
+text-align: left;
+font-size: 63px;
+color: white;
+}
+.first{
+position: absolute;
+top: 0%;
+height: 63px;
+margin-top: -63px;
+}
+.second {
+position: absolute;
+top: 0%;
+height: 63px;
+}
+</style>
+</head>
+<body>
+<div class="first"><p>水上高原</p></div>
+<div class="second"><p>スキー</p></div>
+</body>
