@@ -4,8 +4,115 @@
 <head>
     <meta charset="utf-8" />
     <title>price</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            line-height: 1.3em;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: white;
+        }
+
+        header {
+            height: 300px;
+            background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0)),url(https://www.salomon.com/sites/default/files/2022-10/How-to-choose-your-ski-boots-on-piste.jpg?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orientation=1&width=870);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            text-align: left;
+            height: 300px;
+            line-height: 300px;
+            font-size: 100px;
+            color: white;
+            margin: 0;
+            margin-left: 10px;
+            padding: 0;
+        }
+
+        div {
+            margin: 30px auto;
+            max-width: 400px;
+        }
+
+        h3 {
+            font-size: 25px;
+            margin: 5px;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            border-radius: 10px;
+            background: lavender;
+        }
+            table th {
+                border-right: 2px dashed slategray;
+                border-bottom: 2px dashed slategray;
+            }
+
+            table td {
+                border-right: 5px solid slategray;
+                border-bottom: 2px dashed slategray;
+                text-align: center;
+                padding: 20px;
+            }
+
+            table tr:first-child th {
+                border-top: 5px solid slategray;
+                border-left: 5px solid slategray;
+                border-radius: 10px 0 0 0;
+            }
+
+            table tr:first-child td {
+                border-top: 5px solid slategray;
+                border-radius: 0 10px 0 0;
+            }
+
+            table tr:last-child th {
+                border-bottom: 5px solid slategray;
+            }
+
+            table tr:last-child td {
+                border-bottom: 5px solid slategray;
+                border-radius: 0 0 10px 0;
+            }
+            
+        .price {
+            text-align: right;
+        }
+
+    </style>
 </head>
 <body>
-
+    <header>
+        <h1>料金</h1>
+    </header>
+    <div>
+        <h3>各種経費</h3>
+        <table>
+            <tr><th colspan="2">交通費(東京―上毛高原 往復)</th><td class="price">\11,640</td></tr>
+            <tr><th colspan="2" style="border-left: 5px solid slategray">宿泊費(2泊4食)</th><td rowspan="2" class="price">\33,900</td></tr>
+            <tr><th colspan="2" style="border-left: 5px solid slategray">3日分リフト券</th></tr>
+            <tr><th rowspan="2" style="border-bottom: 5px solid slategray; border-left: 5px solid slategray; border-radius: 0 0 0 10px">スキー道具貸出</th><th>ウェア有</th><td class="price">\21,000</td></tr>
+            <tr><th>ウェア無</th><td class="price">\13,500</td></tr>
+        </table>
+    </div>
+    <div>
+        <h3>必要最低金額</h3>
+        <table>
+            <tr><th>ウェアを借りる場合</th><td class="price">\54,900</td></tr>
+            <tr><th style="border-radius: 0 0 0 10px; border-left: 5px solid slategray">ウェアを借りない場合</th><td class="price">\47,400</td></tr>
+        </table>
+    </div>
 </body>
 </html>

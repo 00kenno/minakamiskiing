@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 
+
 <html lang="ja" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
@@ -23,6 +24,7 @@
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
+            margin-bottom: 15px;
         }
 
         h1 {
@@ -31,6 +33,18 @@
             line-height: 300px;
             font-size: 100px;
             color: white;
+            margin: 0;
+            margin-left: 10px;
+            padding: 0;
+        }
+
+        h2 {
+            background: slategray;
+            color: white;
+            text-align: center;
+            font-size: 30px;
+            height: 50px;
+            line-height: 50px;
             margin: 0;
             padding: 0;
         }
@@ -54,7 +68,7 @@
             text-align: right;
             box-sizing: border-box;
         }
-        
+
         span::after {
             content: "";
             position: absolute;
@@ -67,9 +81,10 @@
         }
 
         div {
+            font-size:12px;
             display: inline-block;
             width: 100%;
-            margin-left: 30px;
+            margin: 5px 0 5px 30px;
             padding: 15px 10px 15px 10px;
             vertical-align: middle;
             background: lavender;
@@ -78,25 +93,61 @@
         }
         </style>
 </head >
-<body >
-<header>
-    <h1>日程</h1>
-</header>
-<ul>
-    <li>
-        <span>9:00</span>
-        <div>
-            <h3>こんなことする</h3>
-            <p>こうだよ</p>
-        </div>
-    </li>
-    <li>
-        <span>3:00</span>
-        <div>
-            <h3>hei</h3>
-            <p>hi</p>
-        </div>
-    </li>
-</ul>
-</body >
+<body>
+    <header>
+        <h1>日程</h1>
+    </header>
+    <h2>1日目</h2>
+    <ul>
+        <li>
+            <span>9:00</span>
+            <div>
+                <h3>こんなことする</h3>
+                <p>こうだよ</p>
+            </div>
+        </li>
+        <li>
+            <span>3:00</span>
+            <div>
+                <h3>hei</h3>
+                <p>hi</p>
+            </div>
+        </li>
+    </ul>
+    <h2>2日目</h2>
+    <ul>
+        <li>
+            <span>9:00</span>
+            <div>
+                <h3>こんなことする</h3>
+                <p>こうだよ</p>
+            </div>
+        </li>
+        <li>
+            <span>3:00</span>
+            <div>
+                <h3>hei</h3>
+                <p>hi</p>
+            </div>
+        </li>
+    </ul>
+    <h2>3日目</h2>
+    <ul>
+        <li>
+            <span>9:00</span>
+            <div>
+                <h3>こんなことする</h3>
+                <p>こうだよ</p>
+            </div>
+        </li>
+        <li>
+            <span>3:00</span>
+            <div>
+                <h3>hei</h3>
+                <p>hi</p>
+            </div>
+        </li>
+    </ul>
+    <h2 style="margin-bottom: 15px">解散</h2>
+</body>
 </html >
